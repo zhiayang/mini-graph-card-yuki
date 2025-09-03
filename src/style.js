@@ -159,6 +159,11 @@ const style = css`
   .states--secondary:empty {
     display: none;
   }
+  .states--secondary .state--small {
+    display: inline-flex;
+    width: 100%;
+    gap: 1em;
+  }
   .state {
     position: relative;
     display: flex;
