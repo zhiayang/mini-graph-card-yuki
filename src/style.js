@@ -224,7 +224,7 @@ const style = css`
     font-weight: 400;
     line-height: 1.6em;
     /* margin-top: .1em; */
-    margin-bottom: 0.15em;
+    margin-bottom: 0.175em;
     opacity: .6;
     vertical-align: bottom;
   }
