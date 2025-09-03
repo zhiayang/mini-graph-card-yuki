@@ -214,7 +214,7 @@ const style = css`
     opacity: 0.8;
   }
   .state__wrapper {
-    /* flex: 1; */
+    flex: 0;
   }
   .state__uom {
     flex: 1;
