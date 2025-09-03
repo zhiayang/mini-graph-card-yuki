@@ -162,7 +162,7 @@ const style = css`
   .states--secondary .state--small {
     display: inline-flex;
     width: 100%;
-    gap: 1em;
+    gap: 2em;
   }
   .state {
     position: relative;
@@ -209,9 +209,9 @@ const style = css`
     flex: 1;
     align-self: flex-start;
     display: inline-block;
-    font-size: 2em;
-    margin-left: 1em;
-    line-height: 1.2em;
+    font-size: 1.7em;
+    line-height: 1.8em;
+    opacity: 0.8;
   }
   .state__wrapper {
     flex: 1;
@@ -223,7 +223,8 @@ const style = css`
     font-size: 1.4em;
     font-weight: 400;
     line-height: 1.6em;
-    margin-top: .1em;
+    /* margin-top: .1em; */
+    margin-bottom: 0.15em;
     opacity: .6;
     vertical-align: bottom;
   }
