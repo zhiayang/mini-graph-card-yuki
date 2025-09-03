@@ -200,6 +200,14 @@ const style = css`
     margin-right: .25rem;
     line-height: 1.2em;
   }
+  .state__secondary_label {
+    flex: 1;
+    align-self: flex-start;
+    display: inline-block;
+    font-size: 2em;
+    margin-left: 1em;
+    line-height: 1.2em;
+  }
   .state__uom {
     flex: 1;
     align-self: flex-end;
