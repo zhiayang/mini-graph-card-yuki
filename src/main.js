@@ -202,7 +202,7 @@ class MiniGraphCard extends LitElement {
   renderWarnings() {
     return html`
       <hui-warning>
-        <div>mini-graph-card</div>
+        <div>mini-graph-card-yuki</div>
         ${this.config.entities.map((_, index) => (!this.entity[index] ? html`
           <div>
             Entity not available: ${this.config.entities[index].entity}
@@ -1085,5 +1085,5 @@ window.customCards.push({
   type: 'mini-graph-card-yuki',
   name: 'Mini Graph Card (Yuki Ver)',
   preview: false,
-  description: 'The Mini Graph card is a minimalistic and customizable graph card',
+  description: 'The Mini Graph card (yuki ver) is a minimalistic and customisable graph card',
 });
