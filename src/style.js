@@ -208,6 +208,9 @@ const style = css`
     margin-left: 1em;
     line-height: 1.2em;
   }
+  .state__wrapper {
+    flex: 1;
+  }
   .state__uom {
     flex: 1;
     align-self: flex-end;
